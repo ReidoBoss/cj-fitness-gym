@@ -13,5 +13,8 @@
   },
   "scripts": {
     "dev": "nodemon app.ts"
+  },
+  "devDependencies": {
+    "tsconfig-paths": "^4.2.0"
   }
 }

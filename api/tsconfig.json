@@ -1,9 +1,18 @@
 {
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  },
   "compilerOptions": {
     "target": "ESNext",
     "module": "NodeNext",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "strict": true
+    "strict": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "controller/*": ["./controller/*"],
+      "#routes": ["./routes/index.ts"],
+    }
   }
 }
