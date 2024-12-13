@@ -10,7 +10,7 @@ Remember NCA (No Custom Action)
 
 #### Example:
 
-```
+```js
     // CONTROLLER
     function createTask(){ /* implement here */ } ❌
     function create(){ /* implement here */ } ✅
