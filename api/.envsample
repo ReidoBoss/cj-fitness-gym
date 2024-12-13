@@ -1,2 +1,5 @@
 # This is the base port
-BASE_PORT = 9000
+PORT = <change with port number>
+DB_URL = <database host>
+DB_USER = <database username>
+DB_PASSWORD = <database password>
