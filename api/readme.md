@@ -35,3 +35,14 @@ Remember NCA (No Custom Action)
 #### Delete
 
 - `delete` means delete
+
+## Controller naming conventions
+
+```js
+    function create(){ /* create implementation */ }
+    function all(){ /* get all by id or filter by what ever implementation */ }
+    function get(){ /* get one by id or filter by what ever implementation */ }
+    function delete(){ /* delete implementation */ }
+    function update(){ /* update implementation */ }
+
+```
