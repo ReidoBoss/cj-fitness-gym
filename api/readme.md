@@ -25,8 +25,8 @@ Remember NCA (No Custom Action)
 
 #### Read
 
-- `all` means get an unfiltered list but filtered by `id` or whatever
-- `get` means get one // _not yet implemented but planning to in the future_
+- `all` means get list of something but filtered by `id` or whatever
+- `get` means get one
 
 #### Update
 
