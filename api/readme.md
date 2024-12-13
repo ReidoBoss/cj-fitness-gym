@@ -6,7 +6,7 @@ Follow this guide so that we could keep a scalable and clean **API** _codebase_
 
 ### Note:
 
-Remember NCA (No Custom Action)
+Remember rule **NWCA** _(Never Write Custom Action)_
 
 #### Example:
 
@@ -14,7 +14,23 @@ Remember NCA (No Custom Action)
     // CONTROLLER
     function createTask(){ /* implement here */ } ❌
     function create(){ /* implement here */ } ✅
+```
 
+### If a custom action should be made, make another controller
+
+#### Example
+
+```js
+//profile-controller.ts
+function updateCoverImage() {}
+/*
+    if this happens, go create another controller
+    dedicated for updating the cover image
+*/
+
+/* SOLUTION */
+//profile-cover-image-controller.ts
+function update() {}
 ```
 
 ### CRUD-based naming convention
