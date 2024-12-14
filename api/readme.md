@@ -11,9 +11,9 @@ Remember rule **NWCA** _(Never Write Custom Action)_
 #### Example:
 
 ```js
-    // CONTROLLER
-    function createTask(){ /* implement here */ } ❌
-    function create(){ /* implement here */ } ✅
+// CONTROLLER
+function createTask(){ /* implement here */ } ❌
+function create(){ /* implement here */ } ✅
 ```
 
 ### If a custom action should be made, make another controller
